@@ -1,4 +1,4 @@
-const InvariantError = require("../../api/notes/exceptions/InvariantError");
+const InvariantError = require("../../api/exceptions/InvariantError");
 const { albumPayloadSchema, songPayloadSchema } = require("./schema");
 
 const musicsValidator = {
